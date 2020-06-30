@@ -19,6 +19,16 @@ namespace SobrecargaOperad
 
             var resultado3 = 30 + c1;
 
+            c1 += c1;
+            Console.WriteLine(c1.Area);
+
+            r1 += r1;
+            Console.WriteLine(r1.Area);
+
+            c1 += 10;
+            c1 += r1;
+            c1 += 10.5;
+            Console.ReadLine();
 
         }
     }

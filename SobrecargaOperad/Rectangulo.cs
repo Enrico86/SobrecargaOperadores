@@ -13,5 +13,7 @@ namespace SobrecargaOperad
             //Es para fines demostrativos de como sobrecargar operadores, no es para explicar cómo calcular el área de cada 
             //figura geometrica
         }
+
+        public static Rectangulo operator +(Rectangulo lhs, Rectangulo rhs) => new Rectangulo { Area = lhs.Area + rhs.Area };
     }
 }
