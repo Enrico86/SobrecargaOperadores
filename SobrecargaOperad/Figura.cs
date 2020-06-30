@@ -36,8 +36,5 @@ namespace SobrecargaOperad
 
         public static double operator +(Figura lhs, int rhs) => lhs.Area + rhs;
         public static double operator +(int lhs, Figura rhs) => lhs+ rhs.Area;
-
-
-
     }
 }
